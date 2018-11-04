@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
+div .main{
+    background: chocolate;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+form#contactNewsLetterForm{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background: chocolate;
+}
+
+form#contactNewsLetterForm div{
+    padding: 5px;
+}

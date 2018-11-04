@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="response/animation.css">
+    <link rel="stylesheet" href="response/response.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <ul id="links">
+        <li> <a href="http://Facebook.com"> Facebook</a></li>
+        <li><a href="http://twitter.com">Twitter</a></li>
+        <li><a href="https://instagram.com">Instagram</a></li>
+        <li><a href="http://pinterest.com">Pinterest</a></li>
+        <li><a href="http://unsplash.com">Unsplash</a></li>
+        <li><a href="http://google.com">Google</a></li>
+        <li><a href="index.html">jQueryApp</a></li>
+    </ul>
+
+    <form id="contactNewsLetterForm" method="GET" action="submitted.html">
+        <div>
+            <label for="contactFirstName">First Name</label>
+            <input type="text" 
+                    id="contactFirstName"
+                    name="contactFirstName"
+                    size="25"
+                    maxlength="50"
+                    required="required"
+                    />
+        </div>
+        <div>
+            <label for="contactLastName">Last Name</label>
+            <input type="text"
+                   id="contactLastName"
+                   name="contactLastName"
+                   size="25"
+                   maxlength="50"
+                   required="required"
+            >
+        </div>
+        <div>
+            <input type="checkbox"
+                   id="contactNewsLetter"
+                   name="contactNewsLetter"
+                   value="1"
+                   required="required"
+            >
+            <p>By subscribing  our terms and conditions you agree to our <a href="licence.html">privacy policy</a></p>
+            <label for="contactNewsLetter">Subscribe to our newsletter</label>
+        </div>
+        <div>
+            <input type="submit"
+                   id="contactNewsLetterFormSubmit"
+                   name="contactNewsLetterFormSubmit"
+                   value="Go"
+            >
+        </div>
+    </form>
+</body>
+
+</html>
